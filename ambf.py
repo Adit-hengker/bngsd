@@ -219,7 +219,7 @@ def teman():
                 login()
         try:
 		limit = '5000'
-                file = 'rozhak.json'
+                file = 'ditz.json'
 		print('──────────────────────────────────────────')
 		print('[•] Nama File : '+file)
                 try:
@@ -257,7 +257,7 @@ def followers():
 		print('──────────────────────────────────────────')
                 idt = raw_input("[•] ID Profil : ")
                 limit = '5000'
-                file = 'rozhak.json'
+                file = 'ditz.json'
 		print('[•] Nama File : '+file)
                 try:
                         jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
@@ -301,7 +301,7 @@ def like():
 		print('──────────────────────────────────────────')
                 idt = raw_input("[•] ID Post : ")
 		limit = '5000'
-                file = 'rozhak.json'
+                file = 'ditz.json'
 		print('[•] Nama File : '+file)
                 try:
                    r=requests.get("https://graph.facebook.com/"+idt+"/likes?limit="+limit+"&access_token="+toket)
@@ -342,7 +342,7 @@ def publik():
 		print('──────────────────────────────────────────')
 		idt = raw_input("[•] ID Profil : ")
 		limit = '5000'
-		file = 'rozhak.json'
+		file = 'ditz.json'
 		print('[•] Nama File : '+file)
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
@@ -745,7 +745,7 @@ class crack2:
 				try:
 					while True:
 						try:
-							self.apk= 'rozhak.json'
+							self.apk= 'ditz.json'
 							self.fs=open(self.apk).read().splitlines()
 							break
 						except Exception as e:
